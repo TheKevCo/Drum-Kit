@@ -1,0 +1,83 @@
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 5px 0 #850000;
+    color: #EAFDFC;
+    font-size: 6rem;
+
+}
+
+body {
+    background-color: #0A2647;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+}
+
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+
+.set {
+    margin: 10% auto;
+    justify-content: center;
+    display: flex;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+.w {
+    background: url('../images/tom1.png') no-repeat;
+  }
+  
+.a {
+    background: url('../images/tom2.png') no-repeat;
+  }
+  
+.s {
+    background: url('../images/tom3.png') no-repeat;
+  }
+  
+.d {
+    background: url('../images/tom4.png') no-repeat;
+  }
+  
+.j {
+    background: url('../images/snare.png') no-repeat;
+  }
+  
+.k {
+    background: url('../images/crash.png') no-repeat;
+  }
+  
+.l {
+    background: url('../images/kick.png') no-repeat;
+  }
+
+  footer {
+    text-align: center;
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
